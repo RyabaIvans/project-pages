@@ -1,0 +1,45 @@
+.main {
+    width: 30%;
+    height: 254px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    Line-height: 26px;
+    text-align: center;
+}
+
+
+.email {
+    font-size: 13px;
+}
+
+.img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.card_name {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 49%;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    .main {
+        width: 328px;
+        margin-bottom: 20px;
+
+    }
+}

@@ -1,0 +1,80 @@
+.main {
+    margin: 0 auto;
+    background-image: url("../../img/Rectangle29.png");
+    max-width: 1170px;
+    height: 650px;
+
+}
+
+
+.for_h1 {
+    margin: 164px 0 0 0;
+    width: 380px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.for_paragraf {
+    width: 380px;
+    height: 156px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 21px 0 32px 0;
+}
+
+.text_block {
+    margin: 0 auto;
+    max-width: 340px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button_sing {
+    display: inline-flex;
+    background-color: #F4E041;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 34px;
+    border: none;
+}
+
+@media (max-width: 720px) {
+    .main {
+        height: 500px;
+
+    }
+
+    .for_h1 {
+        margin-top: 89px;
+
+    }
+}
+
+@media (max-width: 360px) {
+
+
+    .for_h1 {
+        width: 328px;
+        height: 120px;
+        margin: 40px 0 0 0
+    }
+
+    .for_paragraf {
+        width: 328px;
+        height: 182px;
+
+    }
+}
