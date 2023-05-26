@@ -1,12 +1,12 @@
-import React, {useEffect} from 'react';
-import './App.css';
+import React, { useEffect } from "react";
+import "./App.css";
 import Header from "../src/components/Header/Header";
 import ImagePart from "../src/components/ImagePart/ImagePart";
 import Cards from "../src/components/Cards/Cards";
 import Post from "../src/components/Form/Post";
-import {useAppDispatch} from "../src/app/hooks";
-import {forTosterCall, userThunks} from "../src/features/users/users.slise";
-import {useSelector} from "react-redux";
+import { useAppDispatch } from "../src/app/hooks";
+import { forSuccessFlag, userThunks } from "../src/features/users/users.slise";
+import { useSelector } from "react-redux";
 import Toast from "../src/components/Toast/Toast";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -15,23 +15,22 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 function App() {
-    const dispatch = useAppDispatch();
-    useEffect(() => {
-        dispatch(userThunks.token(''))
-    }, [])
-    const flag = useSelector(forTosterCall)
+  const dispatch = useAppDispatch();
+  useEffect(() => {
+    dispatch(userThunks.token(""));
+  }, []);
+  const Success = useSelector(forSuccessFlag);
 
 
-    return (
-        <div className="App">
-
-            {flag && <Toast/>}
-            <Header/>
-            <ImagePart/>
-            <Cards/>
-            <Post/>
-        </div>
-    );
+  return (
+    <div className="App">
+      {Success && <Toast />}
+      <Header />
+      <ImagePart />
+      <Cards />
+      <Post />
+    </div>
+  );
 }
 
 export default App;

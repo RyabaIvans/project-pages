@@ -51,6 +51,11 @@
     border: none;
 }
 
+.button_sing:hover {
+    background-color: #FFE302;
+
+}
+
 @media (max-width: 720px) {
     .main {
         height: 500px;
@@ -63,7 +68,7 @@
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
 
 
     .for_h1 {

@@ -1,0 +1,24 @@
+.button {
+    display: inline-flex;
+    background-color: #F4E041;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 34px;
+    border: none;
+    margin-top: 50px;
+}
+.button:hover {
+    background-color: #FFE302;
+
+}
+
+.h{
+    font-size: 40px;
+    line-height: 40px;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+

@@ -36,6 +36,15 @@
     border: none;
 }
 
+.button:hover {
+    background-color: #FFE302;
+
+}
+.button:disabled {
+
+    background-color: #B4B4B4;
+}
+
 @media (max-width: 1024px) {
     .main {
 

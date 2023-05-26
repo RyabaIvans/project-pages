@@ -30,6 +30,12 @@
     align-items: center;
     width: 100px;
     height: 34px;
+    border: none;
+}
+
+.button_sing:hover {
+    background-color: #FFE302;
+
 }
 
 .logo_image {
